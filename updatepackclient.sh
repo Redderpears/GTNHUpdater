@@ -2,9 +2,6 @@
 
 echo $'CLIENT pack update for GTNH, created with 2.8.3.\n'
 echo $'\e[31mThis .sh should be placed in the folder with the .minecraft, one folder deeper than .../instances'
-echo $'\tPARENT_FOLDER/NEW_SERVER_FOLDER/this.sh\n'
-echo $'\tPARENT_FOLDER/NEW_SERVER_FOLDER/new_server.zip\n'
-echo $'\tPARENT_FOLDER/OLD_SERVER_FOLDER.\n\e[0m'
 
 CURR_DIRECTORY="$(realpath $(dirname "$0")/.minecraft)"
 
